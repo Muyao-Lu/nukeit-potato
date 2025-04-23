@@ -12,3 +12,15 @@
   color: white; 
   font-family: sans-serif;
 }
+
+#potato{
+  all: initial;
+  background-color: black; 
+  border-radius: 10px; 
+  border: 2px solid white; 
+  width: 18vmin; 
+  padding: 1vmin; 
+  margin: 5vmin; 
+  color: white;
+  font-family: sans-serif;
+}
