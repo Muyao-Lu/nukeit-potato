@@ -1,1 +1,14 @@
-
+#nukeit-box{
+  all: initial; 
+  overflow-x: scroll; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 30vmin; 
+  height: 60vmin; 
+  background-color: rgba(0, 0, 0, 0.75); 
+  border: 4px double white; 
+  z-index: 1000; 
+  color: white; 
+  font-family: sans-serif;
+}
