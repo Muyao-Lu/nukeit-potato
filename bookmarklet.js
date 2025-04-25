@@ -15,7 +15,7 @@ function (){
     function potato(){
         delete_item(document.getElementById("nukeit-box"));
         const html = document.getElementsByTagName("html")[0];
-        html.innerHTML="<body><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/500px-Patates.jpg' style='width: 100vw; height: 100vh;'></body>"; 
+        html.innerHTML="<body><img src='https://github.com/Muyao-Lu/nukeit-potato/raw/main/potato.jpg' style='width: 100vw; height: 100vh;'></body>"; 
         
     }
 
