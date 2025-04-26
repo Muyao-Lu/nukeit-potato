@@ -25,7 +25,7 @@ function (){
 
     function activate_nuclear(){
         delete_item(document.getElementById("nukeit-box"));
-        let elements_list = [];
+        let elements_list = []; 
         let valid_elements = ["p", "li", "img", "span", "a", "button", "h1", "h2", "h3", "h4", "h5", "h6", "td", "tr", "hr", "br", "iframe", "div"];
 
         for (let item of valid_elements){
@@ -184,7 +184,7 @@ function (){
     const body = document.getElementsByTagName("body")[0];
     const head = document.getElementsByTagName("head")[0];
     head.innerHTML += "<style>\
-            #potato, #nuclear-fingers, #magic-portal, #hamster, #click, #intelligence, #appease{all: initial; display: block; font-family: sans-serif; text-align: center; background-color: black; border-radius: 10px; border: 2px solid white; width: 18vmin; padding: 1vmin; margin: 5vmin; color: white;}\
+            #potato, #nuclear-fingers, #magic-portal, #hamster, #click, #intelligence, #appease, #mitosis{all: initial; display: block; font-family: sans-serif; text-align: center; background-color: black; border-radius: 10px; border: 2px solid white; width: 18vmin; padding: 1vmin; margin: 5vmin; color: white;}\
             .hamster:hover{transform: scale(1.1);}\
             #head{all: initial; display: block; text-align: center; font-size: 3vmin; width: 30vmin; color: white; font-family: sans-serif; }\
             small{font-size: 0.8vmin;}\
